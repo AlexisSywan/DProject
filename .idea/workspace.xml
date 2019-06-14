@@ -1,37 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="57af72ac-4ded-4fb9-8f28-4ad4a0072719" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/articles/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/articles/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/articles/migrations/0002_auto_20190612_1205.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/articles/migrations/0003_categorie.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/articles/migrations/0004_auto_20190612_1542.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/articles/migrations/0005_article_category.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/articles/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/articles/templates/articles/accueil.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/articles/templates/articles/article_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/articles/templates/articles/article_detail_view.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/articles/templates/articles/article_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/articles/templates/articles/formulaire.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/articles/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auteurs/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/context_processors.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/migrations/0005_auto_20190612_1202.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/layout/sidebar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DProject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/DProject/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DProject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/DProject/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/layout/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/components/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/layout/navbar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/components/sidebar.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/purBeurreStyleGuide.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/templates.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/templates.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/uiLibrary.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/uiLibrary.html" afterDir="false" />
-    </list>
+    <list default="true" id="57af72ac-4ded-4fb9-8f28-4ad4a0072719" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,8 +72,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/articles/templates/articles/formulaire.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="2" column="48" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
+            <state relative-caret-position="144">
+              <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -276,9 +246,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-24" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="487" />
+    <option name="y" value="195" />
     <option name="width" value="1750" />
     <option name="height" value="995" />
   </component>
@@ -421,7 +391,7 @@
       <workItem from="1560409842796" duration="423000" />
       <workItem from="1560410320453" duration="3648000" />
       <workItem from="1560414008183" duration="16606000" />
-      <workItem from="1560496135214" duration="9793000" />
+      <workItem from="1560496135214" duration="10475000" />
     </task>
     <task id="LOCAL-00001" summary="[CREATE] First Commit">
       <created>1560330061083</created>
@@ -430,11 +400,18 @@
       <option name="project" value="LOCAL" />
       <updated>1560330061083</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="[UPDATE] En attente du fonctionnement du formulaire">
+      <created>1560515417359</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1560515417359</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67315000" />
+    <option name="totallyTimeSpent" value="67997000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -446,7 +423,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7060241" visible="true" weight="0.23994638" />
@@ -479,7 +456,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="[CREATE] First Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="[CREATE] First Commit" />
+    <MESSAGE value="[UPDATE] En attente du fonctionnement du formulaire" />
+    <option name="LAST_COMMIT_MESSAGE" value="[UPDATE] En attente du fonctionnement du formulaire" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3e7f1e12-34d7-45cb-b36c-6e2c457257a4/console.sql">
@@ -770,8 +748,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/articles/templates/articles/formulaire.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="48" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
+        <state relative-caret-position="144">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
         </state>
       </provider>
     </entry>
