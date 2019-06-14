@@ -1,0 +1,10 @@
+<div class="ui vertical menu">
+    {% for article in articles %}
+        <div class="item">
+            <div class="header">{{ article.category }}</div>
+            <div class="menu">
+                <a class="item" href="{% url 'accueilID' article.id %}">{{ article.titre }}</a>
+            </div>
+        </div>
+    {% endfor %}
+</div>

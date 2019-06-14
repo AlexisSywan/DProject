@@ -3,18 +3,20 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav" style="margin-left: 500px; max-width: 75%">
                 <li class="nav-item active">
-                    <a class="nav-link" style="color: whitesmoke;" href="/">Pur Beurre Style Guide</a>
+                    <a class="nav-link" style="color: whitesmoke;" href="{% url 'home' %}">Accueil</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" style="color: whitesmoke;" href="/ui-library">UI Library</a>
+                    <a class="nav-link" style="color: whitesmoke;" href="{% url 'list-article' %}">Liste des
+                        articles</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" style="color: whitesmoke;" href="/templates">Templates</a>
+                    <a class="nav-link" style="color: whitesmoke;" href="{% url 'form-article' %}">Formulaire Article</a>
                 </li>
             </ul>
         </div>
     </nav>
     <div class="text-center" style="padding: 20px">
-        <p style="color: whitesmoke"><span style="font-size: xx-large">Pur Beurre - Charte Graphique</span><br>Du gras, oui, de bonne qualité !</p>
+        <p style="color: whitesmoke"><span style="font-size: xx-large">Pur Beurre - Charte Graphique</span><br>Du gras,
+            oui, de bonne qualité !</p>
     </div>
 </div>

@@ -15,16 +15,12 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-from blog.views import purBeurreStyleGuide_view
-from blog.views import uiLibrary_view
-from blog.views import templates_view
+from .views import DetailArticle, ListeArticles, home_view, form_view
 from articles.views import accueil_article_view
 
-
 urlpatterns = [
-    path('article/', include('articles.urls')),
-    path('', accueil_article_view, name="home"),
-    path('ui-library/', uiLibrary_view, name="uiLibrary"),
-    path('templates/', templates_view, name="templates"),
-    path('admin/', admin.site.urls),
+    # path('', home_view, name="accueil"),
+    path('form-articles/', form_view, name="form-article"),
+    path('<int:pk>', DetailArticle.as_view(), name='accueilID'),
+    path('', ListeArticles.as_view(), name='list-article'),
 ]

@@ -9,4 +9,4 @@ class CartesMagic(models.Model):
     date = models.DateField(default=datetime.now)
 
     def __str__(self):
-        return self.nom + " -  " + str(self.prix) + " €"
+        return self.nom + " - " + str(self.prix) + " €"

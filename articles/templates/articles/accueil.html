@@ -1,0 +1,7 @@
+{% extends 'layout/base.html' %}
+{% load static %}
+{% block content %}
+    <h1>{{ dernierArticle.titre }}</h1>
+    <p>{{ dernierArticle.contenu }}</p>
+{% endblock %}
+{#<p><a href="{% url 'liste-article' %}">Index des articles</a></p>#}

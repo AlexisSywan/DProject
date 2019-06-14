@@ -1,0 +1,10 @@
+{% extends 'layout/base.html' %}
+{% block content %}
+    <p>
+    <ul>
+        <li>Titre : {{ article.titre }}</li>
+        <li>Contenu : {{ article.contenu }}</li>
+        <li>Auteur : {{ article.auteur.nom }} {{ article.auteur.prenom }}</li>
+    </ul>
+    </p>
+{% endblock %}
